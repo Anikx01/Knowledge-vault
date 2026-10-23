@@ -17,6 +17,7 @@
     font-weight: 500;
     padding: 10px 16px;
     border-radius: 4px;
+    border: none;
 }
 
 /* Main Styles */
@@ -46,4 +47,66 @@
     font-weight: 500;
     line-height: 24px;
 
+}
+
+
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid gold; */
+    width:100%;
+    max-width:1600px;
+    height: 474px;
+    gap: 20px;
+    background-image: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-repeat: no-repeat;
+}
+.banner-container{
+    width:75%;
+    height: 300px;
+    max-width: 1260px;
+    /* border: 1px solid turquoise; */
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+}
+
+.btn-early{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 50px 50px;
+    color: #30b868;
+}
+.banner-text h1{
+    font-size:60px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.banner-text-h1{
+    font-size: 60px;
+    color: #30b868;
+} 
+.banner-container p{
+    width: 44%;
+    /* border: 1px solid darkorchid; */
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.banner-container button{
+    margin-top: 15px;
+}
+
+.btn-see{
+    background-color: transparent;
+    border: 1px solid white;
 }
