@@ -240,3 +240,35 @@
 .short-p img{
     height: 10%;
 }
+
+.think{
+    margin-top: 60px;
+    height: 400px;
+}
+.think-container{
+    width: 71%;
+    margin: 0 auto;
+    background-color: #f7f6f2;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.think-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.think-container div h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.think-container div p{
+    font-size: 16px;
+    color: #627382;
+}
+.think-container div span{
+    margin-left: 5px;
+}
